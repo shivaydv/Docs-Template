@@ -1,0 +1,26 @@
+---
+title: Setup
+description: Components
+---
+
+import { Callout } from 'fumadocs-ui/components/callout';
+ 
+## Callout Block
+
+<Callout title="Title">Hello World</Callout>
+
+
+## Code Block
+```jsx
+export default function Layout({ children }: { children: ReactNode }) {
+  return (
+    <html lang="en" className={inter.className} suppressHydrationWarning>
+      <body>
+        <RootProvider>{children}</RootProvider>
+      </body>
+    </html>
+  );
+}
+```
+
+

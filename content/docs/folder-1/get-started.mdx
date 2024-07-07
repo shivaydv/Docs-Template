@@ -1,0 +1,55 @@
+---
+title: Get Started
+description: Get started with Fumadocs template
+---
+import { File, Folder, Files } from 'fumadocs-ui/components/files';
+
+## File Structure
+ 
+<Files>
+  <Folder name="app" defaultOpen>
+  <Folder name="(Home)" >
+    <File name="layout.tsx" />
+    <File name="Page.tsx" />
+  </Folder>
+  <Folder name="docs" >
+    <File name="fumedocs files" />
+  </Folder>
+  </Folder>
+  <Folder name="Content">
+    <Folder name="folder-1">
+    <File name="MDX FILES" />
+  </Folder>
+  <Folder name="folder-2">
+    <File name="MDX FILES" />
+  </Folder>
+  </Folder>
+  <Folder name="Componnts" >
+    <File name="Navbar.tsx" />
+  </Folder>
+  <Folder name="Utils">
+    <File name="Source.ts" />
+  </Folder>
+  
+</Files>
+
+## Edit Navbar
+
+To edit the Navbar of the Home , you can edit the `Navbar.tsx` file in the `Components` folder.
+
+## Edit Sidebar
+
+You can costimize the sidebar from the `source.ts` file in the `Utils` folder.<br/>
+Her you can add links in the sidebar as well as define the tree of the docs.
+
+## Add Docs Pages
+
+To add a new page, you can create a new `.mdx` file in the `Content` folder and can define them in the `source.ts` file in a page Tree.
+
+
+
+## Switch Folders
+
+You can Switch the folders in the docs using the sidebar `RootToogle` component present in the `layout.tsx` file in the `docs` folder.
+
+
